@@ -1,0 +1,33 @@
+
+Used as a Code repository and versioning tool
+
+Usage
+	Branch based work flow
+
+
+Workflow
+	1. Create a branch - 
+		Click the 'Code' menu item
+		Drop 'branch' drop list icon at to left which says 'main'
+		Type a new '[NameForBranch]' and click 'Create branch: [...]' blue box
+		[NameForBranch] now holds a Copy of 'main
+	2. Make changes to the file and 'Commit' the changes
+		Select the required file
+		Click the 'pencil' icon to edit the file in the Browser editor
+		When complete, click 'Commit changes' green button
+		
+		Note you can go to 'Code' menu and add additional files as required to this branch
+	3. Pull Request - These indicate that file modifications are ready to be merged (also used to initiate intermediate team discussions or get ideas)
+		Select the 'Pull requests' menu item; then click the 'New pull request' green button
+		Select the 'base' version and 'compare' version to OUTLINE the changes being proposed
+		The changes in the files are then displayed
+		To initiate the 2-step process of merging the changes
+			Give the pull request a title and provide a brief description
+			Click the green 'Create pull request'
+		Your 'Pull request' is now available to be merged
+	4. Select the 'Pull requests' menu and select 'Open' item at the top line
+		Select the open (green) 'Pull request' by Clicking the entry
+		Click 'Merge pull request' - this brings all the changes into the 'main' branch
+		
+		Note you can also leave a comment and 'Close the pull request' thereby isolating it and NOT MERGING IT TO main
+			You can also 'Delete' the complete branch thereafter
